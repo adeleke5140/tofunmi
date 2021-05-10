@@ -27,8 +27,8 @@ body{
 }
 
 .container{
-	background: var(--primary-color4);
-	/*height: 100vh;*/
+	/*background: var(--primary-color4);
+*/	height: 100vh;
 	width: 100%;
 }
 
@@ -38,6 +38,7 @@ body{
 	font-size: 3rem;
 	text-align: center;
 	padding: 1rem 0 0 0;
+	color: var(--primary-color10);
 }
 
 img{
@@ -46,7 +47,6 @@ img{
 }
 
 .main-image{
-	height: 420px;
 	width: auto;
 	margin: 0 auto;
 	padding: 1rem 0;
@@ -91,13 +91,13 @@ img{
 
 .hurray-image{
 	position: absolute;
-	top: 9rem;
+	top: 20rem;
 	left: -.6rem;
 }
 
 .hurray-image-2{
 	position: absolute;
-	top: 9rem;
+	top: 12rem;
 	left: 19.5rem;
 	height: 70px;
 }
