@@ -49,7 +49,6 @@ img{
 .main-image{
 	width: auto;
 	margin: 0 auto;
-	padding: 1rem 0;
 }
 
 .text{
@@ -89,15 +88,15 @@ img{
     outline: none;
   }
 
-.hurray-image{
-	position: absolute;
-	top: 20rem;
-	left: -.6rem;
-}
-
 .hurray-image-2{
 	position: absolute;
-	top: 12rem;
-	left: 19.5rem;
+	top: 13rem;
+	left: 17rem;
 	height: 70px;
+}
+
+.image-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px;
 }
