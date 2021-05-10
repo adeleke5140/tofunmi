@@ -13,7 +13,7 @@
 <body>
 	<div class="container">
 	<header>
-		<h1 class="title">Happy Birthday Tofunmi</h1>
+		<h1 class="title"></h1>
 	</header>
 	<main>
 		<section class="main-container">
@@ -34,5 +34,19 @@
 		</section>
 	</main>
 	</div>
+	<script>
+		let i = 0;
+		let text = 'Happy Birthday Tofunmi';
+		let speed = 50;
+
+		function typeWriter(){
+			if( i < text.length){
+				document.querySelector('.title').innerHTML += text.charAt(i)
+				i++;
+				setTimeout(typeWriter,speed);
+			}
+		}
+		setTimeout(typeWriter,500)
+	</script>
 </body>
 </html>
